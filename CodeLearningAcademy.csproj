@@ -185,7 +185,9 @@
   <ItemGroup>
     <Content Include="App_Code\DBHelper.cs" />
     <Content Include="App_Code\AuthHelper.cs" />
-    <Content Include="App_Code\BasePage.cs" />
+    <Content Include="App_Code\BasePage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
